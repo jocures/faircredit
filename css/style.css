@@ -1,0 +1,18 @@
+.jumbotron {
+  background: url(../images/beach-woman.jpeg);
+  background-size: cover;
+  background-position: bottom center;
+  padding: 10rem 4rem;
+}
+
+.jumbotron .container {
+  width: 57%;
+  margin-left: 0;
+}
+
+.col-md-4 > i{
+  display: block;
+  text-align: center;
+  font-size: 8em;
+  padding: 10px;
+}
