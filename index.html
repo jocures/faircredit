@@ -1,49 +1,462 @@
-<!doctype html>
-<html lang="en-US" >
-    <head>
-        <meta charset="utf-8">
-        <title>FairCredit</title>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand" href="#">FairCredit</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav> -->
-        <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-3">FairCredit</h1>
-            <p>FairCredit is developing a debt collection system to help people with delinquent debt repair their credit, using predictive analytics and a recurring payment model.</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FairCredit | Forgive Debt, Rebuild Credit, Provide Capital</title>
+    <meta name="description" content="FairCredit is a debt forgiveness service.">
+    <meta name="keywords" content="credit, debt, debt forgiveness, debt reduction, debt collection">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="manifest" href="img/icons/manifest.json">
+    <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <meta name="msapplication-config" content="img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <!-- START: header -->
+  
+  <div class="probootstrap-loader"></div>
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container">
+        <a href="index.html" class="probootstrap-logo">FairCredit</a>
+        
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-right-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://twitter.com/Fair_Cred"><i class="icon-twitter"></i></a></li>
+          </ul>
+        
+          <div class="extra-text visible-xs"> 
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Address</h5>
+            <p>10 E North Ave. Baltimore MD 21202</p>
+            <h5>Connect</h5>
+            <ul class="social-buttons">
+              <li><a href="https://twitter.com/Fair_Cred"><i class="icon-twitter"></i></a></li>
+            </ul>
           </div>
-        </div>
+        </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+  <section class="probootstrap-slider flexslider">
+    <ul class="slides">
+      <li style="background-image: url(img/beach-woman.jpeg);" class="overlay1">
         <div class="container">
-            <!-- Example row of columns -->
-            <div class="row">
-              <div class="col-md-4">
-                <h2>Compassion</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              </div>
-              <div class="col-md-4">
-                <h2>Innovation</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              </div>
-              <div class="col-md-4">
-                <h2>Transparency</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
+                <h2>We want to forgive your debt.</h2>
               </div>
             </div>
-
-            <hr>
-
-            <footer>
-              <p>© FairCredit 2017</p>
-            </footer>
           </div>
-    </body>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- END: slider  -->
+
+  <section class="probootstrap-section">
+    <div class="container">
+      <div class="row overlap">
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+
+            <div class="icon">
+              <i class="icon-heart3"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Forgive Debt</h3>
+              <p>By forgiving up to 80% of your debt, you have the potential to feel a weight off your shoulders and start living again.</p>
+              <p><a href="contact.html">Learn more</a></p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-presentation"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Build Credit</h3>
+              <p>We want to work with you to set up a payment system that best suits your needs which will give you the opportunity to rebuild your credit.</p>
+              <p><a href="contact.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-wallet2"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Provide Capital</h3>
+              <p>When your credit is back in good standing, you will have the opportunity to access low interest capital!</p>
+              <p><a href="conact.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <div class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center section-heading probootstrap-animate">
+          <h2>Our Values</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
+
+          <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                    Compassion
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p>FairCredit has compassion for every person in debt and we want to work with you to repair and rebuild your credit. We ultimately want to give you the opportunity to participate in the credit economy. You have the power to drive the economy and we believe everyone deserves the right to participate.</p>
+
+                  
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Innovation
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <p>The tools FairCredit uses makes it easier than ever to rebuild your credit. We utilize intelligent systems and to make payment simple reducing overhead costs for every customer.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Transparency
+                  </a>
+                </h3>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p> We are transparent. FairCredit works with everyone to come up with a payment plan that works.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END panel-group -->
+        </div>
+        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
+          <p><img src="img/smiling-man.jpg" alt="img" class="img-responsive"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END section -->
+
+  <!--section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center section-heading probootstrap-animate">
+          <h2>Watch Video</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 probootstrap-animate" data-animate-effect="fadeIn">
+          <figure>
+            <div class="probootstrap-video">
+              <a href="https://vimeo.com/45830194" class="popup-vimeo probootstrap-video-play overlay"><span><i class="icon-play3"></i></span></a>
+              <img src="img/slider_3.jpg" alt="Free HTML5 Bootstrap Template by ProBootstrap.com" class="img-responsive">
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section -->
+  <!-- END section -->
+
+
+  <section class="probootstrap-section probootstrap-section-lighter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 probootstrap-animate">
+          <div class="probootstrap-testimony">
+          
+          </div>
+        </div>
+        <div class="col-md-6 probootstrap-animate">
+          <div class="probootstrap-testimony">
+            <blockquote>
+              <p>An innovative approach to a broken industry. This has the potential to change the lives of milliions of people!</p>
+            </blockquote>
+            <div class="author">
+              <img src="img/smiling-bonnie.jpg" class="img-responsive" alt="">
+              <div>Bonnie C. <span>Debt Survivor</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 probootstrap-animate">
+          <div class="probootstrap-testimony">
+           
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- END section -->
+
+
+  <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center section-heading probootstrap-animate">
+          <h2>How We Do It</h2>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+
+            <div class="icon">
+              <i class="icon-users"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Customers First</h3>
+              <p>We understand you are suffering from debt. We always focus on your experience first.</p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-presentation"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Mission Driven</h3>
+              <p>Our mission is central to our work. We will never sacrafice your success for our profit.</p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-adjustments"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Predictive Analytics</h3>
+              <p>We build efficient analytical systems in order to better engage with you at every step. </p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+
+            <div class="icon">
+              <i class="icon-make-group"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Machine Learning</h3>
+              <p>We use cutting edge machine learning models to maximize our efforts and save you money.</p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-shield3"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Always Secure</h3>
+              <p>We make security a top priority, which means we will never sell your data. Ever.</p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service left-icon probootstrap-animate">
+            <div class="icon">
+              <i class="icon-wallet2"></i>
+            </div>
+            <div class="text">
+              <h3 class="heading">Fast and Painless</h3>
+              <p>Speed and ease of use are built into our DNA. We focus on getting you financially secure fast.</p>
+              <p><a href="about.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END section -->
+
+  <!-- section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center section-heading probootstrap-animate">
+          <h2>Recent Work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card with-hover">
+            <div class="probootstrap-card-media">
+              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Vokalia and Consonantia</h2>
+              <p class="category">Design</p>
+              <p><a href="single-page.html">View details</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card with-hover">
+            <div class="probootstrap-card-media">
+              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Live the Blind Texts</h2>
+              <p class="category">Model</p>
+              <p><a href="single-page.html">View details</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 probootstrap-animate">
+          <div class="probootstrap-card with-hover">
+            <div class="probootstrap-card-media">
+              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by ProBootstrap.com"></a>
+            </div>
+            <div class="probootstrap-card-text">
+              <h2 class="probootstrap-card-heading mb0">Behind the Word Mountains</h2>
+              <p class="category">Website</p>
+              <p><a href="single-page.html">View details</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section -->
+  <!-- END section -->
+
+  
+
+  <footer class="probootstrap-footer probootstrap-bg">
+    <div class="container">
+      <div class="row mb60">
+        <div class="col-md-3">
+          <div class="probootstrap-footer-widget">
+            <h4 class="heading">About FairCredit</h4>
+            <p>Our company creates innovative products to forgive debt, build credit and provide capital to help people.</p>
+            <p><a href="about.html">Read more...</a></p>
+          </div> 
+        </div>
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget probootstrap-link-wrap">
+            <h4 class="heading">Quick Links</h4>
+            <ul class="stack-link">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--div class="col-md-3">
+          <div class="probootstrap-footer-widget">
+            <h4 class="heading">More Links</h4>
+            <ul class="stack-link">
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Support Help</a></li>
+            </ul>
+          </div> 
+        </div-->
+        <div class="col-md-3">
+          <div class="probootstrap-footer-widget">
+            <h4 class="heading">Subscribe</h4>
+            <p>Learn more about how we forgive debt!</p>
+            <form action="https://formspree.io/hello@faircredit.io" method="POST">
+              <div class="form-field">
+                <input type="email" class="form-control" name="_replyto" placeholder="Enter your email">
+                <input type="submit" class="btn btn-subscribe"></input>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget">
+            <p>&copy; 2017 <a href="https://FairCredit.io/index.html">Faircredit</a>.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget right">
+            <ul class="probootstrap-social">
+              <li><a href="https://twitter.com/Fair_Cred"><i class="icon-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+  </div>
+  
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  </body>
 </html>
